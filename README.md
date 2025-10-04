@@ -19,3 +19,40 @@ This chatbot can answer general questions, solve math problems, and interact int
 
 1. Make sure **Java 17+** is installed.
 2. Compile the project:
+```bash
+javac -d out src/com/ai/chatbot/*.java
+3.Run the GUI:
+javac -d out src/com/ai/chatbot/*.java
+4.Type your questions or math expressions in the input field and press Send.
+📝 Examples of Interaction
+
+Mathematical Expressions:
+
+2 * pi → 6.283185307179586
+
+sqrt(16) → 4.0
+
+log(100) → 2.0
+
+phi ^ 2 → 2.6180339887
+
+General Questions:
+
+Hello → Hello! How can I help you today?
+
+What is football? → Football is a popular sport played worldwide.
+
+Help → You can ask me math questions like 2 * pi or general questions.
+
+📂 Project Structure
+AI_Chatbot/
+│
+├─ src/
+│   └─ com/ai/chatbot/
+│       ├─ Chatbot.java      # Core logic
+│       └─ ChatbotGUI.java   # GUI interface
+│
+├─ faq.txt                  # List of questions & answers
+└─ README.md                # This file
+
+
